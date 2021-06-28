@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('bg.jpeg'); 
+    background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+}
+
+.task{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}
+
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+    width: 650px;
+    height: 650px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}  
+.icons{
+    color: white;
+}
+
+#search{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.anim {
+    transition: transform .2s;
+}
+
+.anim:hover {
+    transform: scale(0.9);
+}
+
+.searchmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.searchmenu img{
+    border-radius: 8px;
+    width: 700px;
+    height: 650px;
+}
+
+#file-explorer{
+    width: 37px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+
+.file_explorer{
+        position: absolute; 
+        /* bottom: 50px; */
+        bottom: -655px;
+        width: 100%;
+        text-align: center;
+        transition: all 0.3s ease-in;
+    }
+    
+.file_explorer img{
+        border-radius: 8px;
+        width: 1000px;
+        height: 650px;
+        margin-bottom: 20px;
+    
+    }
+.bin{
+    width: 50px;
+    margin-left: 20px;
+}
+
+label{
+    color: #000;
+    margin-left: 7px;
+}
+
+#vid{
+    width: 100%;
+    height: 100%;
+}
